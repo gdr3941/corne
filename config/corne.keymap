@@ -66,7 +66,7 @@
 &trans  &trans  &kp LG(N8)  &kp LG(N6)  &trans       &trans           &kp LG(N7)  &kp LG(N2)  &kp LG(N1)  &kp LG(N5)  &trans  &trans
 &trans  &trans  &trans      &trans      &trans       &kp PAGE_UP      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans  &trans
 &trans  &trans  &trans      &trans      &kp LA(TAB)  &kp PAGE_DOWN    &kp LG(N3)  &kp LG(N4)  &kp LG(N9)  &trans      &trans  &trans
-                            &trans      &trans       &trans           &trans      &mo 3       &trans
+                            &trans      &trans       &trans           &trans      &trans      &trans
             >;
         };
 
