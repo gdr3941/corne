@@ -50,7 +50,7 @@
 &kp TAB        &kp Q  &kp W              &kp E             &kp R          &kp T           &kp Y            &kp U          &kp I              &kp O               &kp P     &kp BSPC
 &kp LEFT_META  &kp A  &hrml LEFT_META S  &hrml LEFT_ALT D  &hrml LCTRL F  &kp G           &kp H            &hrmr RCTRL J  &hrmr RIGHT_ALT K  &hrmr RIGHT_META L  &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z  &kp X              &kp C             &kp V          &kp B           &kp N            &kp M          &kp COMMA          &kp DOT             &kp FSLH  &kp RIGHT_SHIFT
-                                         &lt 3 TAB         &kp SPACE      &lt 1 ESCAPE    &lt 2 BACKSPACE  &kp ENTER      &kp RSHIFT
+                                         &kp TAB           &kp SPACE      &lt 1 ESCAPE    &lt 2 BACKSPACE  &kp ENTER      &kp RSHIFT
             >;
         };
 
@@ -86,7 +86,7 @@
             >;
         };
 
-        function_layer {
+        fun_layer {
             display-name = "Fun";
             bindings = <
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
