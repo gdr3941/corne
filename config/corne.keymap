@@ -61,10 +61,10 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&kp TAB  &kp EXCL        &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE            &kp SLASH   &kp N7  &kp N8  &kp N9  &kp ASTERISK  &trans
-&trans   &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN       &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp MINUS     &trans
-&trans   &kp UNDERSCORE  &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN    &kp N0      &kp N1  &kp N2  &kp N3  &kp PLUS      &trans
-                                       &trans                &trans                 &trans              &trans      &trans  &trans
+&kp TAB  &kp EXCL     &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &kp SLASH   &kp N7  &kp N8  &kp N9  &kp ASTERISK  &trans
+&trans   &kp POUND    &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp MINUS     &trans
+&trans   &kp PERCENT  &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp N0      &kp N1  &kp N2  &kp N3  &kp PLUS      &trans
+                                  &trans                &trans                 &trans           &trans      &trans  &trans
             >;
         };
 
@@ -75,6 +75,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans  &trans     &trans  &trans
                                         &trans        &trans        &trans          &trans    &trans    &trans
+            >;
+        };
+
+        Num {
+            bindings = <
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp DOT    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
     };
